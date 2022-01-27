@@ -1,0 +1,91 @@
+@import "size-desc";
+@import "general";
+
+body {
+
+}
+
+.container {
+  width: 88.287vw;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.block-background {
+  background-image: url("/image/background-img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+
+  &__info {
+    padding-top: $desktop200px;
+  }
+
+  &__title {
+    font-size: $desktop48px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+
+  &__profession {
+    font-size: $desktop22px;
+    color: #FFFFFF;
+  }
+
+  &__underLine {
+    width: 6.003vw;
+    margin: 0.733vw 0 1.831vw 0;
+    border-color: #CE1515;
+  }
+
+  &__setting {
+    font-size: $desktop22px;
+    padding: 12px 30px 12px 30px;
+    color: #FFFFFF;
+    background: #CE1515;
+  }
+
+  &__buttonDownload {
+    margin-top: 50px;
+  }
+}
+
+.block-header {
+  width: 100%;
+  position: absolute;
+
+  &__navMenu {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+  }
+
+  &__linksItem {
+    display: flex;
+  }
+
+  &__link {
+    color: white;
+    font-size: $desktop16px;
+
+    &:hover {
+      color: red;
+      border-bottom: 1px solid #CE1515;
+      padding-bottom: 0.293vw;
+    }
+  }
+
+  &__links {
+    margin-right: 50px;
+
+    &:last-child {
+      margin-right: unset;
+    }
+  }
+
+  &__line {
+    background: #FFFFFF;
+    opacity: 0.3;
+  }
+}
+

@@ -1,0 +1,86 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 88.287vw;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.block-background {
+  background-image: url("/image/background-img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.block-background__info {
+  padding-top: 14.642vw;
+}
+.block-background__title {
+  font-size: 3.514vw;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.block-background__profession {
+  font-size: 1.611vw;
+  color: #FFFFFF;
+}
+.block-background__underLine {
+  width: 6.003vw;
+  margin: 0.733vw 0 1.831vw 0;
+  border-color: #CE1515;
+}
+.block-background__setting {
+  font-size: 1.611vw;
+  padding: 12px 30px 12px 30px;
+  color: #FFFFFF;
+  background: #CE1515;
+}
+.block-background__buttonDownload {
+  margin-top: 50px;
+}
+
+.block-header {
+  width: 100%;
+  position: absolute;
+}
+.block-header__navMenu {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 30px 0;
+}
+.block-header__linksItem {
+  display: flex;
+}
+.block-header__link {
+  color: white;
+  font-size: 1.172vw;
+}
+.block-header__link:hover {
+  color: red;
+  border-bottom: 1px solid #CE1515;
+  padding-bottom: 0.293vw;
+}
+.block-header__links {
+  margin-right: 50px;
+}
+.block-header__links:last-child {
+  margin-right: unset;
+}
+.block-header__line {
+  background: #FFFFFF;
+  opacity: 0.3;
+}
+
+/*# sourceMappingURL=style.css.map */
