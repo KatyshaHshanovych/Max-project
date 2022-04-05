@@ -10,6 +10,11 @@ a {
 
 body {
   margin: 0;
+  font-family: "Gotham Pro";
+}
+
+p {
+  color: #FFFFFF;
 }
 
 .container {
@@ -49,6 +54,30 @@ body {
 }
 .block-background__buttonDownload {
   margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.block-background__imgIcon {
+  margin-left: 1.391vw;
+}
+.block-background__rightInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  right: 309px;
+  top: 60px;
+}
+.block-background__general {
+  display: flex;
+  justify-content: space-between;
+}
+.block-background__email {
+  display: flex;
+  justify-content: right;
+}
+.block-background__textMail {
+  font-size: 1.025vw;
 }
 
 .block-header {

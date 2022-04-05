@@ -47,6 +47,35 @@ body {
 
   &__buttonDownload {
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__imgIcon {
+    margin-left: $desktop19px;
+  }
+
+  &__rightInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    right: 309px;
+    top: 60px;
+  }
+
+  &__general {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__email {
+    display: flex;
+    justify-content: right;
+  }
+
+  &__textMail {
+    font-size: $desktop14px;
   }
 }
 
