@@ -1,9 +1,7 @@
 @import "size-desc";
 @import "general";
 
-body {
 
-}
 
 .container {
   width: 88.287vw;
@@ -115,6 +113,114 @@ body {
   &__line {
     background: #FFFFFF;
     opacity: 0.3;
+  }
+}
+
+.block-AboutMe {
+
+  &__title {
+    font-size: $desktop36px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    margin-top: $desktop50px;
+  }
+
+  &__animator {
+    display: flex;
+    align-items: center;
+    background: black;
+    height: 36.018vw;
+    margin: 5.125vw 0 6.516vw 0;
+  }
+
+  &__character {
+    margin-top: $desktop15px;
+    font-size: $desktop18px;
+  }
+
+  &__hrLine {
+    width: 6.003vw;
+    margin: 1.831vw 0;
+  }
+
+  &__line {
+    width: 5.93vw;
+    border-color: #CE1515;
+    opacity: 0.5;
+  }
+
+  &__textBlock {
+    margin-top: $desktop25px;
+    font-size: $desktop16px;
+  }
+
+  &__href {
+    margin-top: $desktop44px;
+    text-decoration: underline
+  }
+
+  &__name {
+    font-size: $desktop24px;
+    font-weight: 700;
+  }
+
+  &__summary {
+    font-size: $desktop18px;
+  }
+
+  &__lineText {
+    width: 5.93vw;
+    border-color: #CE1515;
+    opacity: 0.5
+  }
+
+  &__color {
+    color: white;
+    font-size: $desktop18px;
+  }
+}
+
+.block-Project {
+  background: #1D1D1D;
+
+  &__head {
+    text-align: center;
+    font-size: $desktop36px;
+    font-weight: 700;
+  }
+
+  &__itemSlider {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__selected {
+    font-size: $desktop24px;
+    font-weight: 700;
+  }
+
+  &__item {
+    font-size: $desktop18px;
+    font-weight: 400;
+    color: white;
+    text-decoration: underline;
+    margin-right: 47px;
+  }
+
+  &__allProject {
+    display: flex;
+    align-items: baseline;
+  }
+
+  &__imageOne {
+    position: relative;
+    right: 18px;
+  }
+
+  &__image {
+    position: relative;
+    top: -43px;
   }
 }
 

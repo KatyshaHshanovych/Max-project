@@ -10,7 +10,8 @@ a {
 
 body {
   margin: 0;
-  font-family: "Gotham Pro";
+  font-family: "Anek Bangla", sans-serif;
+  color: white;
 }
 
 p {
@@ -110,6 +111,94 @@ p {
 .block-header__line {
   background: #FFFFFF;
   opacity: 0.3;
+}
+
+.block-AboutMe__title {
+  font-size: 2.636vw;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  margin-top: 3.661vw;
+}
+.block-AboutMe__animator {
+  display: flex;
+  align-items: center;
+  background: black;
+  height: 36.018vw;
+  margin: 5.125vw 0 6.516vw 0;
+}
+.block-AboutMe__character {
+  margin-top: 1.099vw;
+  font-size: 1.318vw;
+}
+.block-AboutMe__hrLine {
+  width: 6.003vw;
+  margin: 1.831vw 0;
+}
+.block-AboutMe__line {
+  width: 5.93vw;
+  border-color: #CE1515;
+  opacity: 0.5;
+}
+.block-AboutMe__textBlock {
+  margin-top: 1.831vw;
+  font-size: 1.172vw;
+}
+.block-AboutMe__href {
+  margin-top: 3.2212vw;
+  text-decoration: underline;
+}
+.block-AboutMe__name {
+  font-size: 1.757vw;
+  font-weight: 700;
+}
+.block-AboutMe__summary {
+  font-size: 1.318vw;
+}
+.block-AboutMe__lineText {
+  width: 5.93vw;
+  border-color: #CE1515;
+  opacity: 0.5;
+}
+.block-AboutMe__color {
+  color: white;
+  font-size: 1.318vw;
+}
+
+.block-Project {
+  background: #1D1D1D;
+}
+.block-Project__head {
+  text-align: center;
+  font-size: 2.636vw;
+  font-weight: 700;
+}
+.block-Project__itemSlider {
+  display: flex;
+  justify-content: space-between;
+}
+.block-Project__selected {
+  font-size: 1.757vw;
+  font-weight: 700;
+}
+.block-Project__item {
+  font-size: 1.318vw;
+  font-weight: 400;
+  color: white;
+  text-decoration: underline;
+  margin-right: 47px;
+}
+.block-Project__allProject {
+  display: flex;
+  align-items: baseline;
+}
+.block-Project__imageOne {
+  position: relative;
+  right: 18px;
+}
+.block-Project__image {
+  position: relative;
+  top: -43px;
 }
 
 /*# sourceMappingURL=style.css.map */
