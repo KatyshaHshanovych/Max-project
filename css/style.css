@@ -12,12 +12,16 @@ body {
   margin: 0;
   font-family: "Anek Bangla", sans-serif;
   color: white;
+  letter-spacing: 0.265em;
 }
 
 p {
   color: #FFFFFF;
 }
 
+@font-face {
+  font-family: "Grape Nuts", cursive;
+}
 .container {
   width: 88.287vw;
   margin: 0 auto;
@@ -37,10 +41,12 @@ p {
   font-size: 3.514vw;
   font-weight: bold;
   color: #FFFFFF;
+  letter-spacing: 0.265em;
 }
 .block-background__profession {
   font-size: 1.611vw;
   color: #FFFFFF;
+  letter-spacing: 0.265em;
 }
 .block-background__underLine {
   width: 6.003vw;
@@ -52,6 +58,7 @@ p {
   padding: 12px 30px 12px 30px;
   color: #FFFFFF;
   background: #CE1515;
+  letter-spacing: 0.265em;
 }
 .block-background__buttonDownload {
   margin-top: 50px;
@@ -199,6 +206,191 @@ p {
 .block-Project__image {
   position: relative;
   top: -43px;
+}
+.block-Project__itemImage {
+  display: flex;
+  justify-content: right;
+  align-content: center;
+}
+
+.footer-Block {
+  background: black;
+}
+.footer-Block__topBlock {
+  display: flex;
+  justify-content: center;
+}
+.footer-Block__itemBlocks {
+  margin-right: 3.661vw;
+}
+.footer-Block__itemBlocks:last-child {
+  margin-right: 0;
+}
+.footer-Block__middleMail {
+  display: flex;
+  justify-content: center;
+  margin: 2.197vw 0 1.245vw 0;
+  font-size: 1.025vw;
+  font-weight: 400;
+}
+.footer-Block__iconsMedia {
+  display: flex;
+  justify-content: center;
+}
+.footer-Block__copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.343vw;
+  font-size: 0.879vw;
+  opacity: 0.5;
+}
+.footer-Block__settings {
+  color: white;
+  font-weight: 700;
+}
+.footer-Block__center {
+  padding: 2.27vw 0 2.343vw 0;
+}
+.footer-Block__socialMedia {
+  margin-right: 0.733vw;
+}
+.footer-Block__socialMedia:last-child {
+  margin-right: 0;
+}
+
+.block-Vimeo__bigText {
+  color: black;
+  letter-spacing: 0.156em;
+}
+.block-Vimeo__bigTextSecond {
+  font-size: 24px;
+  letter-spacing: 0.156em;
+  font-weight: 500;
+  color: black;
+}
+.block-Vimeo__linkVimeo {
+  font-size: 9.151vw;
+  color: #00adef;
+  font-family: "Grape Nuts", cursive;
+  font-weight: bold;
+  letter-spacing: 0.156em;
+  transition: 1s;
+}
+.block-Vimeo__allParts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3.661vw 0;
+}
+
+.aboutMe {
+  background: #333333;
+}
+.aboutMe__titleBlock {
+  display: flex;
+  justify-content: center;
+  padding-top: 7.321vw;
+}
+.aboutMe__word {
+  text-transform: uppercase;
+  font-size: 2.636vw;
+  font-weight: 700;
+}
+.aboutMe__allRedIcon {
+  display: flex;
+  justify-content: space-around;
+}
+.aboutMe__infoMaya {
+  display: flex;
+  align-items: center;
+}
+.aboutMe__redItem {
+  margin-right: 5.125vw;
+}
+.aboutMe__redItem:last-child {
+  margin-right: 0;
+}
+.aboutMe__redLine {
+  border-color: #CE1515;
+  opacity: 0.5;
+  width: 30.82vw;
+  margin-bottom: 1.831vw;
+}
+.aboutMe__software {
+  padding-bottom: 1.831vw;
+  font-size: 1.757vw;
+  font-weight: 700;
+}
+.aboutMe__engines {
+  padding-bottom: 1.831vw;
+  font-size: 1.757vw;
+  font-weight: 700;
+}
+.aboutMe__redLineSecond {
+  border-color: #CE1515;
+  opacity: 0.5;
+  margin-bottom: 1.831vw;
+  width: 13.544vw;
+}
+.aboutMe__unreal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutMe__unrealName {
+  font-size: 1.318vw;
+}
+.aboutMe__max {
+  font-size: 1.318vw;
+}
+.aboutMe__longText {
+  padding: 3.661vw 0 3.661vw 0;
+}
+.aboutMe__industry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutMe__titleIndustry {
+  font-size: 1.757vw;
+  font-weight: 700;
+}
+.aboutMe__employment {
+  font-size: 1.318vw;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.aboutMe__redLineThird {
+  border-color: #CE1515;
+  opacity: 0.5;
+  width: 13.544vw;
+}
+.aboutMe__playQ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutMe__workPlace {
+  font-size: 1.757vw;
+  font-weight: 400;
+}
+.aboutMe__senior {
+  font-size: 1.318vw;
+  font-weight: 400;
+}
+.aboutMe__responsible {
+  font-size: 1.172vw;
+  font-weight: 400;
+  padding: 1.099vw 0 1.831vw 0;
+  text-align: center;
+}
+.aboutMe__education {
+  font-size: 1.318vw;
+  text-align: center;
+}
+
+.padding {
+  margin-top: -1.901vw;
 }
 
 /*# sourceMappingURL=style.css.map */

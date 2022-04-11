@@ -7,23 +7,18 @@
                 </a>
             </li>
             <li class="block-header__links">
+                <a href="aboutMe.php" class="block-header__link">
+                    About Me
+                </a>
+            </li>
+            <li class="block-header__links">
                 <a href="/" class="block-header__link">
                     Project
                 </a>
             </li>
             <li class="block-header__links">
                 <a href="/" class="block-header__link">
-                    Portfolio
-                </a>
-            </li>
-            <li class="block-header__links">
-                <a href="/" class="block-header__link">
                     Contact
-                </a>
-            </li>
-            <li class="block-header__links">
-                <a href="/" class="block-header__link">
-                    Feedback
                 </a>
             </li>
         </ul>

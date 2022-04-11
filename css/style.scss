@@ -1,7 +1,9 @@
 @import "size-desc";
 @import "general";
 
-
+@font-face {
+  font-family: 'Grape Nuts', cursive;;
+}
 
 .container {
   width: 88.287vw;
@@ -23,11 +25,13 @@
     font-size: $desktop48px;
     font-weight: bold;
     color: #FFFFFF;
+    letter-spacing: 0.265em;
   }
 
   &__profession {
     font-size: $desktop22px;
     color: #FFFFFF;
+    letter-spacing: 0.265em;
   }
 
   &__underLine {
@@ -41,6 +45,7 @@
     padding: 12px 30px 12px 30px;
     color: #FFFFFF;
     background: #CE1515;
+    letter-spacing: 0.265em;
   }
 
   &__buttonDownload {
@@ -75,6 +80,7 @@
   &__textMail {
     font-size: $desktop14px;
   }
+
 }
 
 .block-header {
@@ -222,5 +228,232 @@
     position: relative;
     top: -43px;
   }
+
+  &__itemImage {
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    //height: 375px;
+  }
 }
 
+.footer-Block {
+
+  background: black;
+
+  &__topBlock {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__itemBlocks {
+    margin-right: $desktop50px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__middleMail {
+    display: flex;
+    justify-content: center;
+    margin: $desktop30px 0 $desktop17px 0;
+    font-size: $desktop14px;
+    font-weight: 400;
+  }
+
+  &__iconsMedia {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: $desktop32px;
+    font-size: $desktop12px;
+    opacity: 0.5;
+  }
+
+  &__settings {
+    color: white;
+    font-weight: 700;
+  }
+
+  &__center {
+    padding: $desktop31px 0 $desktop32px 0;
+  }
+
+  &__socialMedia {
+    margin-right: $desktop10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.block-Vimeo {
+
+  &__bigText {
+    color: black;
+    letter-spacing: 0.156em;
+  }
+
+  &__bigTextSecond {
+    font-size: 24px;
+    letter-spacing: 0.156em;
+    font-weight: 500;
+    color: black;
+  }
+
+  &__linkVimeo {
+    font-size: 9.151vw;
+    color: #00adef;
+    font-family: 'Grape Nuts', cursive;
+    font-weight: bold;
+    letter-spacing: 0.156em;
+    transition: 1s;
+  }
+
+  &__allParts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3.661vw 0;
+  }
+
+}
+
+.aboutMe {
+  background: #333333;
+
+  &__titleBlock {
+    display: flex;
+    justify-content: center;
+    padding-top: $desktop100px;
+  }
+
+  &__word {
+    text-transform: uppercase;
+    font-size: $desktop36px;
+    font-weight: 700;
+  }
+
+  &__allRedIcon {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__infoMaya {
+    display: flex;
+    align-items: center;
+  }
+
+  &__redItem {
+    margin-right: $desktop70px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__redLine {
+    border-color: #CE1515;
+    opacity: 0.5;
+    width: $desktop421px;
+    margin-bottom: $desktop25px;
+  }
+
+  &__software {
+    padding-bottom: $desktop25px;
+    font-size: $desktop24px;
+    font-weight: 700;
+  }
+
+  &__engines {
+    padding-bottom: $desktop25px;
+    font-size: $desktop24px;
+    font-weight: 700;
+  }
+
+  &__redLineSecond {
+    border-color: #CE1515;
+    opacity: 0.5;
+    margin-bottom: $desktop25px;
+    width: $desktop185px;
+  }
+
+  &__unreal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__unrealName {
+    font-size: $desktop18px;
+  }
+
+  &__max {
+    font-size: $desktop18px;
+  }
+
+  &__longText {
+    padding: $desktop50px 0 $desktop50px 0;
+  }
+
+  &__industry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__titleIndustry {
+    font-size: $desktop24px;
+    font-weight: 700;
+  }
+
+  &__employment {
+    font-size: $desktop18px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  &__redLineThird {
+    border-color: #CE1515;
+    opacity: 0.5;
+    width: $desktop185px;
+  }
+
+  &__playQ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__workPlace {
+    font-size: $desktop24px;
+    font-weight: 400;
+  }
+
+  &__senior {
+    font-size: $desktop18px;
+    font-weight: 400;
+  }
+
+  &__responsible {
+    font-size: $desktop16px;
+    font-weight: 400;
+    padding: $desktop15px 0 $desktop25px 0;
+    text-align: center;
+  }
+
+  &__education {
+    font-size: $desktop18px;
+    text-align: center;
+  }
+}
+
+.padding {
+  margin-top: -1.901vw;
+}

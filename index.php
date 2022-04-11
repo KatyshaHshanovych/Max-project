@@ -1,20 +1,11 @@
 <!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link href="owl-carousel/owl.carousel.min.css">
-    <link href="owl-carousel/owl.theme.default.min.css">
+    <?php include 'head.php'; ?>
     <title>Portfolio</title>
 </head>
 <body>
-    <?php include 'css/header.php'; ?>
+    <?php include 'header.php'; ?>
     <div class="block-background">
         <div class="container">
             <div class="block-background__info">
@@ -109,42 +100,65 @@
             </div>
         </div>
     </div>
-        <div class="block-Project">
-            <div class="container">
-                <div class="block-Project__head">
-                    Project
+    <div class="block-Project">
+        <div class="container">
+            <div class="block-Project__head">
+                Project
+            </div>
+            <hr class="block-AboutMe__lineText">
+            <div class="block-Project__itemSlider">
+                <div class="block-Project__selected">
+                    Selected Projects
                 </div>
-                <hr class="block-AboutMe__lineText">
-                <div class="block-Project__itemSlider">
-                    <div class="block-Project__selected">
-                        Selected Projects
-                    </div>
-                    <div class="block-Project__allProject">
-                        <a href="/" class="block-Project__item">
-                            See all
-                        </a>
-                        <div class="block-Project__iconSlider">
-                            <div class="block-Project__imgArrow">
-                                <img class="block-Project__imageOne" src="image/arrow.png" alt="arrow" title="arrow">
-                            </div>
-                            <div class="block-Project__imgEllipse">
-                                <img class="block-Project__image" src="image/Ellipse.png" alt="ellipse" title="ellipse">
-                            </div>
+                <div class="block-Project__allProject">
+                    <a href="/" class="block-Project__item">
+                        See all
+                    </a>
+                    <div class="block-Project__iconSlider">
+                        <div class="block-Project__imgArrow">
+                            <img class="block-Project__imageOne" src="image/arrow.png" alt="arrow" title="arrow">
+                        </div>
+                        <div class="block-Project__imgEllipse">
+                            <img class="block-Project__image" src="image/Ellipse.png" alt="ellipse" title="ellipse">
                         </div>
                     </div>
                 </div>
-                <div class="owl-carousel">
-                    <div> Your Content </div>
-                    <div> Your Content </div>
-                    <div> Your Content </div>
-                    <div> Your Content </div>
-                    <div> Your Content </div>
-                    <div> Your Content </div>
-                    <div> Your Content </div>
+            </div>
+        </div>
+        <div class="block-Project__blockImages">
+            <div class="block-Project__slider">
+                <img class="block-Project__picture" src="/image/gvint.png" alt="gvint">
+                <img class="block-Project__picture" src="/image/AngryBirds.png" alt="Angry-Birds-Legends">
+                <img class="block-Project__picture" src="/image/hotel_image.jpeg" alt="hotel_image">
+            </div>
+        </div>
+    </div>
+    <div class="block-Vimeo">
+        <div class="container">
+            <div class="block-Vimeo__allParts">
+                <div class="block-Vimeo__topItem">
+                    <div class="block-Vimeo__textTop">
+                        <h2 class="block-Vimeo__bigText">
+                            Смотрите больше моих видео
+                        </h2>
+                    </div>
+                    <div class="block-Vimeo__presentation">
+                        <a href="https://vimeo.com/cherewatyi" class="block-Vimeo__linkVimeo" target="_blank">
+                            Vimeo
+                        </a>
+                    </div>
+                </div>
+                <div class="block-Vimeo__bottomText">
+                    <span class="block-Vimeo__bigTextSecond">
+                        Спасибо что посмотрели мое портфолио
+                    </span>
                 </div>
             </div>
         </div>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.min.js"></script>
+    </div>
+    <?php include 'footer.php'; ?>
+    <script src="/js/jquery.js"></script>
+    <script src="/slick/slick.min.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
