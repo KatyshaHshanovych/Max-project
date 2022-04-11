@@ -454,6 +454,45 @@
   }
 }
 
+.project-Block {
+  background: #E5E5E5;
+
+  &__titleForBlock {
+    font-size: $desktop36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1D1D1D;
+    text-align: center;
+  }
+
+  &__youtubeVideo {
+    margin-top: 1.831vw;
+  }
+
+  &__imgGvint {
+    width: 48.244vw;
+    height: 41.801vw;
+    top: 4.027vw;
+  }
+}
+
+.projectText {
+  color: #1D1D1D;
+}
+
+.setting {
+  padding-top: 0;
+}
+
 .padding {
   margin-top: -1.901vw;
 }
+
+.order {
+  order: 1;
+}
+
+.turnRight {
+  margin-left: $desktop25px;
+}
+

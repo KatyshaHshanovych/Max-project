@@ -389,8 +389,43 @@ p {
   text-align: center;
 }
 
+.project-Block {
+  background: #E5E5E5;
+}
+.project-Block__titleForBlock {
+  font-size: 2.636vw;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1D1D1D;
+  text-align: center;
+}
+.project-Block__youtubeVideo {
+  margin-top: 1.831vw;
+}
+.project-Block__imgGvint {
+  width: 48.244vw;
+  height: 41.801vw;
+  top: 4.027vw;
+}
+
+.projectText {
+  color: #1D1D1D;
+}
+
+.setting {
+  padding-top: 0;
+}
+
 .padding {
   margin-top: -1.901vw;
+}
+
+.order {
+  order: 1;
+}
+
+.turnRight {
+  margin-left: 1.831vw;
 }
 
 /*# sourceMappingURL=style.css.map */

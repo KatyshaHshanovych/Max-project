@@ -12,7 +12,7 @@
                 </a>
             </li>
             <li class="block-header__links">
-                <a href="/" class="block-header__link">
+                <a href="project.php" class="block-header__link">
                     Project
                 </a>
             </li>
