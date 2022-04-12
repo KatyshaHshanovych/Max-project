@@ -428,4 +428,73 @@ p {
   margin-left: 1.831vw;
 }
 
+.contact-block {
+  background: #E5E5E5;
+}
+.contact-block__mainItems {
+  display: flex;
+}
+.contact-block__formName {
+  width: 350px;
+  height: 3.807vw;
+  box-shadow: 0 0.074vw 3.661vw 0.074vw rgba(0, 0, 0, 0.1);
+  border: 0;
+  font-size: 1.318vw;
+  padding: 0 0.733vw;
+  margin-right: 2.416vw;
+}
+.contact-block__formLastName {
+  width: 350px;
+  height: 3.807vw;
+  box-shadow: 0 0.074vw 3.661vw 0.074vw rgba(0, 0, 0, 0.1);
+  border: 0;
+  font-size: 1.318vw;
+  padding: 0 0.733vw;
+}
+.contact-block__formEmail {
+  width: 350px;
+  height: 3.807vw;
+  box-shadow: 0 0.074vw 3.661vw 0.074vw rgba(0, 0, 0, 0.1);
+  border: 0;
+  font-size: 1.318vw;
+  padding: 0 0.733vw;
+  margin-right: 2.416vw;
+}
+.contact-block__formSubject {
+  width: 350px;
+  height: 3.807vw;
+  box-shadow: 0 0.074vw 3.661vw 0.074vw rgba(0, 0, 0, 0.1);
+  border: 0;
+  font-size: 1.318vw;
+  padding: 0 0.733vw;
+}
+.contact-block__formMessage {
+  width: 100%;
+  border: 0;
+  box-shadow: 0 0.074vw 3.661vw 0.074vw rgba(0, 0, 0, 0.1);
+}
+.contact-block__redButton {
+  background: #CE1515;
+  padding: 0.879vw 2.197vw 0.879vw 2.197vw;
+  font-size: 1.318vw;
+  font-weight: 400;
+  color: white;
+}
+.contact-block__button {
+  margin-top: 3.661vw;
+}
+.contact-block__nameLastName {
+  display: flex;
+  margin-top: 3.661vw;
+}
+.contact-block__nameEmailSub {
+  display: flex;
+}
+.contact-block__nameEmailSub {
+  margin-top: 3.661vw;
+}
+.contact-block__textArea {
+  margin-top: 3.661vw;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -4,27 +4,22 @@
             <div class="footer-Block__topBlock">
                 <div class="footer-Block__itemBlocks">
                     <a class="footer-Block__settings" href="/">
-                        About me
+                        Home
                     </a>
                 </div>
                 <div class="footer-Block__itemBlocks">
-                    <a class="footer-Block__settings" href="/">
+                    <a class="footer-Block__settings" href="aboutMe.php">
+                        About Me
+                    </a>
+                </div>
+                <div class="footer-Block__itemBlocks">
+                    <a class="footer-Block__settings" href="project.php">
                         Project
                     </a>
                 </div>
                 <div class="footer-Block__itemBlocks">
-                    <a class="footer-Block__settings" href="/">
-                        Portfolio
-                    </a>
-                </div>
-                <div class="footer-Block__itemBlocks">
-                    <a class="footer-Block__settings" href="/">
+                    <a class="footer-Block__settings" href="contact.php">
                         Contact
-                    </a>
-                </div>
-                <div class="footer-Block__itemBlocks">
-                    <a class="footer-Block__settings" href="/">
-                        Feedback
                     </a>
                 </div>
             </div>

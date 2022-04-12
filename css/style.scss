@@ -496,3 +496,86 @@
   margin-left: $desktop25px;
 }
 
+.contact-block {
+  background: #E5E5E5;
+
+  &__mainItems {
+    display: flex;
+  }
+
+  &__formName {
+    width: 350px;
+    height: $desktop52px;
+    box-shadow: 0 $desktop1px $desktop50px $desktop1px rgba(0, 0, 0, 0.1);
+    border: 0;
+    font-size: $desktop18px;
+    padding: 0 0.733vw;
+    margin-right: $desktop33px;
+  }
+
+  &__formLastName {
+    width: 350px;
+    height: $desktop52px;
+    box-shadow: 0 $desktop1px $desktop50px $desktop1px rgba(0, 0, 0, 0.1);
+    border: 0;
+    font-size: $desktop18px;
+    padding: 0 0.733vw;
+  }
+
+  &__formEmail {
+    width: 350px;
+    height: $desktop52px;
+    box-shadow: 0 $desktop1px $desktop50px $desktop1px rgba(0, 0, 0, 0.1);
+    border: 0;
+    font-size: $desktop18px;
+    padding: 0 0.733vw;
+    margin-right: $desktop33px;
+  }
+
+  &__formSubject {
+    width: 350px;
+    height: $desktop52px;
+    box-shadow: 0 $desktop1px $desktop50px $desktop1px rgba(0, 0, 0, 0.1);
+    border: 0;
+    font-size: $desktop18px;
+    padding: 0 0.733vw;
+  }
+
+  &__formMessage {
+    width: 100%;
+    border: 0;
+    box-shadow: 0 $desktop1px $desktop50px $desktop1px rgba(0, 0, 0, 0.1);
+  }
+
+  &__redButton {
+    background: #CE1515;
+    padding: $desktop12px $desktop30px $desktop12px $desktop30px;
+    font-size: $desktop18px;
+    font-weight: 400;
+    color: white;
+  }
+
+  &__button {
+    margin-top: $desktop50px;
+  }
+
+  &__nameLastName {
+    display: flex;
+    margin-top: $desktop50px;
+  }
+
+  &__nameEmailSub {
+    display: flex;
+
+  }
+
+  &__nameEmailSub {
+    margin-top: $desktop50px;
+  }
+
+  &__textArea {
+    margin-top: $desktop50px;
+  }
+
+}
+

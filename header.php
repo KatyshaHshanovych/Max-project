@@ -17,7 +17,7 @@
                 </a>
             </li>
             <li class="block-header__links">
-                <a href="/" class="block-header__link">
+                <a href="contact.php" class="block-header__link">
                     Contact
                 </a>
             </li>
